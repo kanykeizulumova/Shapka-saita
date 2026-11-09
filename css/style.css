@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/InterRegular.woff2"), url("../fonts/InterBold.woff2"), url("../fonts/InterSemiBold.woff2");
+    font-display: swap;
+    font-weight: 400;
+}
+
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    background-color: #1e1e1e;
+}
+
+.site {
+    background-color: #FFFFFF;
+    max-width: 1920px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    margin: 0 120px;
+}
+
+.header-main {
+    font-family: Inter;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #0F172A;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    gap: 32px;
+    padding: 0;
+    list-style: none;
+}
+
+.menu-item a {
+    font-family: Inter;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #64748B;
+    cursor: pointer;
+}
+
+
+.search-container {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+.search-icon-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    color: #0F172A;
+
+}
+
+.search-icon-btn svg {
+    width: 24px;
+    height: 24px;
+}
+
+.action-btn {
+    background-color: #0F172A;
+    color: #ffffff;
+    border: none;
+    border-radius: 16px;
+    padding: 16px 20px;
+    font-family: Inter;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+.action-btn:hover {
+    opacity: 0.9;
+}
